@@ -4,6 +4,8 @@ import Companies from "./sections/Companies";
 import Residents from "./sections/Residents";
 import Values from "./sections/Values";
 import Contact from "./sections/Contact";
+import Subscribe from "./sections/Subscribe ";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Residents />
       <Values />
       <Contact />
+      <Subscribe />
+      <Footer />
     </>
   );
 }

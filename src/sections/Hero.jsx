@@ -6,11 +6,11 @@ import CountUp from 'react-countup';
 const Hero = () => {
     return (
         <>
-            <div className=' bg-[#131110] relative z-0'>
+            <div className=' bg-[#131110] relative z-0 '>
                 <div className='absolute w-80 h-80 bg-white rounded-[100px] blur-[150px] left-6 top-3 -z-10' />
                 <Header />
-                <div className=''>
-                    <div className='container'>
+                <div className='w-full flex justify-center '>
+                    <div className='container flex justify-center flex-col'>
                         <div className='flex justify-around'>
                             <div className='flex justify-center flex-col p-20 text-white gap-12'>
                                 <div className='relative font-semibold text-[3.8rem] leading-[4rem]'>
@@ -35,7 +35,7 @@ const Hero = () => {
                                         </div>
                                     </form>
                                 </div>
-                                <div className=' flex justify-between text-center items-center'>
+                                <div className=' flex justify-between text-center items-center gap-5'>
                                     <div className='flex flex-col'>
                                         <div>
                                             <CountUp className='text-3xl pr-1' start={8500} duration={2} end={9000} />
