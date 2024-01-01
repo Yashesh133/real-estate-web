@@ -6,7 +6,7 @@ import { IoIosChatbubbles } from 'react-icons/io'
 const Contact = () => {
     return (
         <div className='flex justify-center my-24'>
-            <div className='container flex justify-around'>
+            <div className='container flex justify-evenly'>
                 <div className='flex-1'>
                     <div className='flex justify-start flex-col'>
                         <span className='text-orange-500 text-[24px] font-medium'>
@@ -85,7 +85,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 flex justify-center'>
                     <img className='h-[35rem] w-[30rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-gray-300 border-opacity-12'
                         src='./contact.jpg'
                         alt='value' />
