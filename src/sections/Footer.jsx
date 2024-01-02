@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='flex justify-center my-3'>
+        <div className='flex justify-center m-3'>
             <div className='container flex justify-between'>
                 <div>
                     <img className='w-[120px]' src='logo2.png' alt='logo2' />

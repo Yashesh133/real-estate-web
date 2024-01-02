@@ -17,6 +17,20 @@ const Residents = () => {
                     <Swiper
                         spaceBetween={40}
                         slidesPerView={4}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                        }}
                     >
                         {data.map((item, index) => (
                             <SwiperSlide key={index} className='hover:bg-gradient-to-b from-transparent to-[rgba(136,160,255,0.46)] rounded'>

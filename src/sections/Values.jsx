@@ -13,13 +13,13 @@ import { MdOutlineArrowDropDown } from 'react-icons/md'
 const Values = () => {
     return (
         <div className='flex justify-center my-24'>
-            <div className='container flex justify-around'>
-                <div className='flex-1 flex justify-center flex-wrap'>
+            <div className='container flex justify-between items-center flex-wrap'>
+                <div className='flex justify-center m-3 w-[100%]'>
                     <img className='h-[40rem] w-[30rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-gray-300 border-opacity-12'
                         src='./value.png'
                         alt='value' />
                 </div>
-                <div className='flex-1 flex-wrap'>
+                <div className='flex justify-center m-3'>
                     <div className='flex flex-col'>
                         <span className='text-orange-500 text-[24px] font-medium'>
                             Our Value

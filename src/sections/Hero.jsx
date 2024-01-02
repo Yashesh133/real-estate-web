@@ -9,9 +9,9 @@ const Hero = () => {
             <div className=' bg-[#131110] relative z-0 '>
                 <div className='absolute w-80 h-80 bg-white rounded-[100px] blur-[150px] left-6 top-3 -z-10' />
                 <Header />
-                <div className='w-full flex justify-center '>
+                <div className='w-full flex justify-center -z-10'>
                     <div className='container flex justify-center flex-col'>
-                        <div className='flex justify-around'>
+                        <div className='flex justify-around flex-wrap m-5'>
                             <div className='flex justify-center flex-col p-20 text-white gap-12'>
                                 <div className='relative font-semibold text-[3.8rem] leading-[4rem]'>
                                     <div className='h-16 w-16 bg-gradient-to-l from-yellow-400 to-orange-500 rounded-full absolute top-[-7%] right-[30%] blur-sm -z-10' />
@@ -35,22 +35,22 @@ const Hero = () => {
                                         </div>
                                     </form>
                                 </div>
-                                <div className=' flex justify-between text-center items-center gap-5'>
-                                    <div className='flex flex-col'>
+                                <div className=' flex md:justify-between flex-wrap text-center items-center gap-5 justify-center'>
+                                    <div className='flex flex-col justify-center items-center'>
                                         <div>
                                             <CountUp className='text-3xl pr-1' start={8500} duration={2} end={9000} />
                                             <span className='text-yellow-400 text-3xl'>+</span>
                                         </div>
                                         <span>Premium Product</span>
                                     </div>
-                                    <div className='flex flex-col'>
+                                    <div className='flex flex-col justify-center items-center'>
                                         <div>
                                             <CountUp className='text-3xl pr-1' start={0} duration={2} end={2000} />
                                             <span className='text-yellow-400 text-3xl'>+</span>
                                         </div>
                                         <span>Happy Customer</span>
                                     </div>
-                                    <div className='flex flex-col'>
+                                    <div className='flex flex-col justify-center items-center'>
                                         <div>
                                             <CountUp className='text-3xl pr-1' start={0} duration={2} end={28} />
                                             <span className='text-yellow-400 text-3xl'>+</span>
