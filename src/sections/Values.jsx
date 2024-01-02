@@ -13,8 +13,8 @@ import { MdOutlineArrowDropDown } from 'react-icons/md'
 const Values = () => {
     return (
         <div className='flex justify-center my-24'>
-            <div className='container flex justify-between items-center flex-wrap'>
-                <div className='flex justify-center m-3 w-[100%]'>
+            <div className='container flex justify-between items-center'>
+                <div className='flex m-3 w-[100%]'>
                     <img className='h-[40rem] w-[30rem] overflow-hidden rounded-t-[15rem] border-8 border-solid border-gray-300 border-opacity-12'
                         src='./value.png'
                         alt='value' />
@@ -30,7 +30,7 @@ const Values = () => {
                         <p>We always ready to help by providijng the best services for you. <br />
                             We beleive a good blace to live can make your life better
                         </p>
-                        <Accordion allowMultipleExpanded={false} preExpanded={[0]} className='w-auto'>
+                        <Accordion allowMultipleExpanded={false} preExpanded={[0]} className='w-full'>
                             {data.map((item, index) => (
                                 <AccordionItem key={index} uuid={index} className='bg-white my-4 rounded border p-4 shadow-sm md:shadow-md lg:shadow-lg xl:shadow-xl 2xl:shadow-2xl ring-[#eeeeff]'>
                                     <AccordionItemHeading>
